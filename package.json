@@ -1,0 +1,37 @@
+{
+  "name": "typescript-api",
+  "version": "1.0.0",
+  "description": "Api Com TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroHaratani/ApiNodeJs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "api"
+  ],
+  "author": "Pedro Shunzo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroHaratani/ApiNodeJs/issues"
+  },
+  "homepage": "https://github.com/PedroHaratani/ApiNodeJs#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "eslint": "^8.36.0",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@types/module-alias": "^2.0.1",
+    "module-alias": "^2.2.2"
+  }
+}
